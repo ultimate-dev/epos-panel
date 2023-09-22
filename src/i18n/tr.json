@@ -44,7 +44,7 @@
   },
 
   "auth": {
-    "welcome": "Cyber İstanbul ePOS",
+    "welcome": "Hoşgeldiniz - ePOS",
     "email": "E-Posta",
     "password": "Şifre",
     "rememberMe": "Beni Hatırla!",

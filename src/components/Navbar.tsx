@@ -1,4 +1,4 @@
-import { APP_NAME, OWNER_NAME } from "configs";
+import { APP_NAME } from "configs";
 import RestaurantController from "controllers/restaurant.controller";
 import { observer } from "mobx-react-lite";
 import { useEffect, useState } from "react";
@@ -51,9 +51,9 @@ const Navbar = () => {
                   <img src={require("assets/images/logo-light.png")} alt="" height="32" />
                   <div className="d-inline-flex flex-column align-items-start justify-content-center ps-1">
                     <h4 className="text-white text-xl m-0 fw-bold">{APP_NAME}</h4>
-                    <small className="text-white text-xl" style={{ opacity: 0.6 }}>
+                   {/* <small className="text-white text-xl" style={{ opacity: 0.6 }}>
                       {OWNER_NAME}
-                    </small>
+  </small>*/}
                   </div>
                 </span>
               </Link>

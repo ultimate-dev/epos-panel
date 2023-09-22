@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Row, Col, CardBody, Card, Alert, Container } from "reactstrap";
 import { Link, useNavigate } from "react-router-dom";
-import { APP_NAME, OWNER_NAME } from "configs";
+import { APP_NAME } from "configs";
 import i18n from "i18n";
 import { Button, Checkbox, Form, Input } from "antd";
 import { RULES } from "constants/forms";
@@ -101,7 +101,7 @@ const LoginPage = () => {
                   </Link>
                 </p>
                 <p>
-                  © 2022 {OWNER_NAME}
+                  © 2022 {/*OWNER_NAME*/}
                   <span className="d-none d-sm-inline-block">- {APP_NAME}</span>
                 </p>
               </div>
